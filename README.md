@@ -8,7 +8,7 @@ No petrol. No emissions. No traffic jams. No road deaths.
 
 ---
 
-![SolarRoad System Blueprint](./solarroad-blueprint.svg)
+![SolarRoad — autonomous vehicles on solar roads with inductive charging](./images/01-hero-highway.jpg)
 
 ---
 
@@ -19,6 +19,8 @@ A child's Scalextric set is a perfect proof of concept. The car needs no engine,
 Every road surface becomes a solar collector. Every building window becomes a power generator. Every vehicle draws power from the road itself. Underground superconducting cables carry that energy with near-zero loss. AI manages the entire network in real time.
 
 This is not science fiction. Every component technology exists today. The innovation is in integration, materials engineering, and the will to deploy.
+
+![Inductive charging — the Scalextric principle at road scale](./images/02-inductive-charging.png)
 
 ---
 
@@ -35,6 +37,8 @@ Continuing to build petrol infrastructure is not pragmatism. It is short-term th
 ---
 
 ## The Sydney Calculation
+
+![SolarRoad deployed across Sydney — AI-managed autonomous vehicles at sunset](./images/03-sydney-sunset-road.png)
 
 To illustrate the energy potential, consider Sydney as a case study.
 
@@ -57,9 +61,13 @@ At conservative technology levels, the SolarRoad system covers **~84% of Sydney'
 
 The road network stops being infrastructure that costs public money. It becomes infrastructure that generates it.
 
+![Sydney CBD — solar PV glass facades on every skyscraper, energy flowing to the road grid](./images/05-sydney-solar-glass.png)
+
 ---
 
 ## System Architecture — Five Layers
+
+![SolarRoad 5-layer architecture — exploded view](./images/07-5layer-architecture.png)
 
 ### ☀️ Layer 1 — Solar Collection
 
@@ -80,7 +88,7 @@ Distributed battery hubs along road networks act as local storage and distributi
 The visible driving surface. Transparent enough to pass usable light to the PV layer below, tough enough to handle heavy vehicle loads, textured for grip. Replaces conventional tarmac. See Section 1 for material science detail.
 
 **Inductive power track**
-Continuous inductive coils deliver wireless power to vehicles in motion — the Scalextric principle at civilisation scale. Vehicles draw energy continuously while driving. Onboard batteries become emergency backup, not the primary power source. A vehicle never needs to stop to charge. Existing EVs can be retrofitted with receiver coils. Conventional petrol vehicles remain fully functional throughout the transition — they simply don't draw inductive power.
+Continuous inductive coils deliver wireless power to vehicles in motion — the Scalextric principle at civilisation scale. Vehicles draw energy continuously while driving. Onboard batteries become emergency backup, not the primary power source. A vehicle never needs to stop to charge. Existing EVs can be retrofitted with receiver coils. Conventional petrol vehicles remain fully functional throughout the transition.
 
 **Maglev rail channels**
 For high-speed lanes, magnetic levitation rails embedded in the road bed lift equipped vehicles fractionally from the surface, eliminating tyre-road friction. Higher safe speeds, dramatically reduced tyre wear, lower rolling resistance, improved energy efficiency.
@@ -99,19 +107,23 @@ The gutter becomes a multi-purpose infrastructure conduit running the full lengt
 
 - **Fibre optic AI data network** — real-time connectivity between vehicles, sensors, relay stations, and central AI
 - **Rainwater harvesting** — passive precipitation collection for urban water supply
-- **Road sensor arrays** — continuous monitoring of traffic, structural integrity, temperature, weather, and emergencies. Sensors serve dual purpose: primary monitoring and system redundancy — adjacent clusters cover any failed unit seamlessly
-- **Utility conduit** — power, communications, and thermal management in a single protected channel, reducing civil engineering requirements
-- **Pedestrian and cyclist integration** — pavement-side inductive charging strips for e-bikes, e-scooters, and mobility devices; pedestrian safety sensors feeding the AI system at junctions
+- **Road sensor arrays** — continuous monitoring of traffic, structural integrity, temperature, weather, and emergencies. Sensors serve dual purpose: primary monitoring and system redundancy
+- **Utility conduit** — power, communications, and thermal management in a single protected channel
+- **Pedestrian and cyclist integration** — pavement-side inductive charging strips for e-bikes, e-scooters, and mobility devices; pedestrian safety sensors at junctions
 
 ---
 
 ### 🔋 Layer 4 — Underground Superconducting Layer
 
+![Superconducting cables in vacuum chambers — zero energy loss underground](./images/04-superconducting-cables.png)
+
 **Superconducting power cables in vacuum chambers**
-Conventional cables lose energy as heat through resistance. Superconducting cables at low temperatures have near-zero resistance — energy travels from collection to storage to end-use with minimal loss. Housed in insulated vacuum chambers beneath the road, forming the zero-loss energy backbone of the network.
+Conventional cables lose energy as heat through resistance. Superconducting cables at low temperatures have near-zero resistance — energy travels from collection to storage to end-use with minimal loss. Housed in insulated vacuum chambers 2–4 metres beneath the road, forming the zero-loss energy backbone of the network.
 
 **Direct energy storage nodes**
 Underground storage at distributed intervals. Design principle: minimise conversion steps — each conversion loses energy. Solar electricity goes directly to electrical storage and is delivered back as electricity. Graphene supercapacitors for fast-response buffering. Solid-state batteries for day-scale storage.
+
+![SolarRoad energy flow — solar harvest, underground storage, bidirectional distribution](./images/06-energy-flow.png)
 
 ---
 
@@ -133,7 +145,7 @@ Fully autonomous on SolarRoad infrastructure, or driver-assisted with human over
 Parked vehicles feed surplus battery energy back into the road network and into homes. The entire vehicle fleet becomes a distributed storage grid — a geographically dispersed battery stabilising supply and demand around the clock.
 
 **Noise reduction**
-Maglev guidance and smooth composite surfaces eliminate the majority of tyre-road and mechanical noise. Cities become significantly quieter — a quality-of-life improvement that costs nothing beyond the infrastructure already described.
+Maglev guidance and smooth composite surfaces eliminate the majority of tyre-road and mechanical noise. Cities become significantly quieter.
 
 ---
 
@@ -162,96 +174,6 @@ Transparency and solar efficiency pull against each other. Current transparent P
 *Organic photovoltaics (OPV)* — flexible, lightweight, printable onto substrates. Lower efficiency but highly compatible with resin composite embedding.
 
 *Quantum dot PV* — tuneable absorption spectrum, high efficiency potential at high transparency, early-stage but promising for the specific balance required.
-
-**The composite layer structure**
-1. Outer layer — hardened, textured, UV-stable polymer (the driving surface)
-2. Encapsulant — transparent resin protecting PV cells
-3. PV cell layer — thin-film cells in a modular grid pattern
-4. TEG layer — thermoelectric modules harvesting residual heat
-5. Electrical interconnect layer — standardised modular connectors
-6. Base bonding layer — adhesion to road substrate, compatible with new construction and retrofit over existing tarmac
-
-**Retrofit compatibility**
-Panels are designed as modular tiles installable over existing tarmac — no full road reconstruction required. Essential for real-world adoption. The rollout starts with high-traffic urban arterials where energy yield and impact are greatest.
-
-**R&D targets**
-- Transparent PV efficiency: ≥ 15% at ≥ 50% transmittance
-- Self-healing polymer coating to maintain surface clarity under abrasion
-- Standardised 1m × 1m modular tile format
-- 20-year field durability under HGV traffic loading
-
----
-
-## Section 3 — Substrate Material Science: The Full Stack
-
-The substrate is where solar collection, thermal harvesting, structural strength, and electrical generation all have to coexist in a single tile under the weight of vehicles, temperature extremes, and decades of weather. Getting the material stack right is the engineering heart of the entire system.
-
-### The Core Principle: Harvest the Same Sunlight Twice
-
-The most promising architecture combines two harvesting mechanisms in the same substrate layer. Perovskite PV cells capture energy from visible light. Directly beneath them, thermoelectric generator (TEG) modules capture the heat that the PV cells themselves generate — solar cells get hot under load and lose efficiency as a result. Rather than losing that heat, TEG modules convert it into a second stream of electricity from the same surface area. You are harvesting the same incoming sunlight through two different physical effects simultaneously.
-
-Combined theoretical yield from a single surface: **20–28%** — significantly better than either technology deployed alone.
-
-### The Full Substrate Stack (Surface to Base)
-
-**Layer 1 — Alumina-reinforced polymer wear surface (8–12mm)**
-The outer driving surface. A transparent ceramic-polymer hybrid — alumina particles suspended in a hardened polymer matrix — provides the compressive and shear strength needed for HGV loading while maintaining the transparency required to pass light to the PV layer below. Textured at the micro-scale for wet grip. Similar composite materials are already used in bulletproof glass, aircraft canopies, and high-load industrial flooring. This is the layer that takes the punishment.
-
-**Layer 2 — Perovskite thin-film PV layer**
-Captures visible light and converts it to electricity. Perovskite solar cells are manufacturable as thin films — they can be deposited directly onto the encapsulant layer below the wear surface without adding significant thickness or rigidity. Lab efficiency now exceeds 25%; real-world integrated efficiency target for this application is 15–20%. The cells are arranged in a modular grid pattern with interconnects running to the edges of each tile.
-
-**Layer 3 — Transparent encapsulant**
-A clear polymer resin that protects the PV cells from mechanical stress and moisture while passing residual infrared radiation — heat — downward to the TEG layer below. Acts as both a structural bond and an optical pathway. Similar encapsulants are used in conventional solar panel manufacturing today.
-
-**Layer 4 — Bismuth telluride TEG modules**
-Bismuth telluride (Bi₂Te₃) is the industry-standard thermoelectric material for low-to-mid temperature differentials — exactly the operating range of a road surface. On a hot day, the road surface reaches 60–70°C while just 10cm below ground sits at 15–20°C. That 40–50°C differential drives the TEG modules at approximately 5–8% thermal conversion efficiency. Not dramatic on its own — but this is energy that would otherwise be entirely wasted as radiated heat. Combined with the PV layer above, the total system yield improves significantly.
-
-**Layer 5 — Graphene heat spreader and electrical conductor**
-A graphene sheet bonded between the TEG modules and the insulating base layer serves two functions simultaneously. As a thermal conductor, it distributes heat evenly across all TEG modules in the tile — preventing hot spots that reduce efficiency and create thermal stress. As an electrical conductor, it forms part of the collection network, routing generated current to the tile interconnects. Graphene's exceptional properties in both thermal and electrical conductivity make it uniquely suited to this dual role. It also adds negligible thickness and weight.
-
-**Layer 6 — Thermal insulating base**
-Maintains the temperature differential that the TEG modules depend on. The hot side of the TEG must stay hot; the cold side must stay cold. Without insulation between the TEG base and the ground below, the differential collapses and TEG output drops toward zero. A aerogel composite insulating layer — the same class of material used in aerospace and industrial thermal management — maintains the gradient efficiently.
-
-**Layer 7 — Flexible adhesive bonding layer**
-Bonds the entire tile assembly to the existing road substrate. Must accommodate the differential thermal expansion between the tile materials above and the concrete or tarmac below — different materials expand and contract at different rates across temperature cycles, and over millions of vehicle passes this causes delamination if not managed. A graphene-particle-infused flexible adhesive accommodates this movement while maintaining both mechanical bond strength and electrical continuity between tiles.
-
-### Thermal Expansion: The Key Engineering Challenge
-
-Different materials in the stack expand and contract at different rates as temperature changes — this mismatch is the primary cause of delamination and the most significant long-term durability challenge. The rates involved:
-
-| Material | Thermal expansion coefficient |
-|---|---|
-| Alumina-polymer composite | ~15–20 ppm/°C |
-| Perovskite thin film | ~10–12 ppm/°C |
-| Bismuth telluride (TEG) | ~18–20 ppm/°C |
-| Graphene | ~−0.5 to +1 ppm/°C (near-zero) |
-| Concrete road base | ~10–12 ppm/°C |
-| Tarmac road base | ~25–30 ppm/°C |
-
-Graphene's near-zero thermal expansion is a key advantage here — as both the heat spreader and the bonding layer additive, it acts as a mechanical buffer between layers with mismatched expansion rates. The flexible adhesive bonding layer (Layer 7) absorbs residual differential movement at the tile-to-road interface.
-
-### Combined Efficiency Summary
-
-| Harvest mechanism | Energy source | Target efficiency | Notes |
-|---|---|---|---|
-| Perovskite PV (Layer 2) | Visible light | 15–20% | Of incident solar energy |
-| Bismuth telluride TEG (Layer 4) | Road surface heat | 5–8% | Of thermal energy at 40–50°C differential |
-| Combined system yield | Solar + thermal | **20–28%** | From same surface area simultaneously |
-
-For context, conventional tarmac converts 0% of incident solar energy — it absorbs it and radiates it back as heat, contributing to the urban heat island effect. The SolarRoad substrate converts the majority of that same energy into stored electricity.
-
-### Current Material Readiness
-
-| Material | Commercial availability | Readiness for road application |
-|---|---|---|
-| Alumina-polymer composites | Commercially available | Adaptation needed for road scale |
-| Perovskite thin-film PV | Lab / early commercial | Durability under load needs development |
-| Transparent encapsulant resins | Commercially available | Direct application possible |
-| Bismuth telluride TEG modules | Commercially available | Road-scale integration needs development |
-| Graphene sheets / additives | Early commercial | Scaling and cost reduction ongoing |
-| Aerogel insulating composites | Commercially available | Direct application possible |
-
-No exotic or theoretical materials are required. Every material in the stack is either commercially available today or in early commercial production. The work is in integration, durability testing, and manufacturing at road scale.
 
 ---
 
@@ -291,11 +213,7 @@ Best for: long-term strategic storage, relay stations requiring days of stored c
 | Service life | 10–50 years depending on isotope |
 | Self-discharge | None |
 
-Best for: always-on sensor arrays, superconducting vacuum chamber maintenance, AI traffic node backup power. Not high-power devices — ultra-reliable long-life sources for infrastructure that must never go offline.
-
-### Superconducting magnetic energy storage (SMES)
-
-Underground SMES units store energy as a persistent magnetic field in a superconducting coil — near-zero losses over time, near-instantaneous charge/discharge. Suitable for large-scale grid balancing at major network nodes.
+Best for: always-on sensor arrays, superconducting vacuum chamber maintenance, AI traffic node backup power.
 
 ### Recommended hybrid architecture
 
@@ -309,21 +227,55 @@ Underground SMES units store energy as a persistent magnetic field in a supercon
 
 ---
 
+## Section 3 — Substrate Material Science: The Full Stack
+
+![SolarRoad substrate — exploded layer view](./images/08-substrate-exploded.svg)
+
+The substrate is where solar collection, thermal harvesting, structural strength, and electrical generation all have to coexist in a single tile. Getting the material stack right is the engineering heart of the entire system.
+
+### The Core Principle: Harvest the Same Sunlight Twice
+
+Perovskite PV cells capture energy from visible light. Directly beneath them, thermoelectric generator (TEG) modules capture the heat that the PV cells themselves generate. Combined theoretical yield from a single surface: **20–28%** — significantly better than either technology deployed alone.
+
+### The Full Substrate Stack
+
+| Layer | Material | Function |
+|---|---|---|
+| 1 — Wear surface | Alumina-reinforced polymer (8–12mm) | Load-bearing, transparent, textured for grip |
+| 2 — PV layer | Perovskite thin-film cells | Visible light → electricity (15–20%) |
+| 3 — Encapsulant | Transparent polymer resin | Protects PV, passes IR heat downward |
+| 4 — TEG modules | Bismuth telluride (Bi₂Te₃) | Heat differential → electricity (5–8%) |
+| 5 — Heat spreader | Graphene sheet | Even heat distribution + electrical collection |
+| 6 — Insulator | Aerogel composite | Maintains TEG temperature differential |
+| 7 — Bond layer | Flexible graphene adhesive | Retrofit bond to existing tarmac |
+
+### Combined Efficiency
+
+| Mechanism | Source | Efficiency |
+|---|---|---|
+| Perovskite PV | Visible light | 15–20% |
+| Bismuth telluride TEG | Road surface heat | 5–8% |
+| **Combined system** | **Solar + thermal** | **20–28%** |
+
+Conventional tarmac: **0%**
+
+---
+
 ## Gradual Rollout
 
 This is a generational infrastructure upgrade — the same category of change as electrifying railways, rolling out the internet, or the transition from analogue to digital. Each of those transitions seemed impossibly large before they happened and inevitable in retrospect.
 
-**Phase 1** — 100m test road segment. Solar composite surface, inductive charging, embedded sensors. Real-world energy yield and surface durability validated.
+**Phase 1** — 100m test road segment. Solar composite surface, inductive charging, embedded sensors.
 
-**Phase 2** — 1km urban corridor. Full gutter conduit and underground superconducting backbone. End-to-end energy transmission efficiency validated.
+**Phase 2** — 1km urban corridor. Full gutter conduit and underground superconducting backbone.
 
-**Phase 3** — Relay station network. Stations at 500m intervals. Day/night storage cycle validated.
+**Phase 3** — Relay station network at 500m intervals. Day/night storage cycle validated.
 
-**Phase 4** — Autonomous vehicle integration. AI fleet management, vehicle-to-grid exchange, maglev guidance, emergency priority routing validated.
+**Phase 4** — Autonomous vehicle integration. AI fleet management, maglev guidance, emergency priority routing.
 
-**Phase 5** — Metropolitan pilot. 500m city road plus one high-rise with solar PV glass. Full system integration. Net energy generation measured.
+**Phase 5** — Metropolitan pilot. 500m city road plus one high-rise with solar PV glass.
 
-**Phase 6 onwards** — City-by-city, road-by-road expansion. Existing EVs retrofitted with receiver coils. Conventional vehicles continue to operate throughout. No forced obsolescence.
+**Phase 6 onwards** — City-by-city, road-by-road expansion. Existing EVs retrofitted. No forced obsolescence.
 
 ---
 
@@ -365,7 +317,7 @@ All component technologies exist. None requires new physics.
 
 Released under **Creative Commons Attribution 4.0 International (CC BY 4.0).**
 
-Share it, build on it, deploy it — credit the source. - Jesse Li-Yates 2018
+Share it, build on it, deploy it — credit the source. - Jesse Li-Yates 
 
 **github.com/jegly/open-invention**
 
