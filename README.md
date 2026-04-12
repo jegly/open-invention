@@ -323,7 +323,7 @@ All component technologies exist. None requires new physics.
 
 Released under **Creative Commons Attribution 4.0 International (CC BY 4.0).**
 
-Share it, build on it, deploy it — credit the source. - 
+Share it, build on it, deploy it — credit the source. 
 ---
 
 ## Inventor
@@ -334,7 +334,6 @@ Share it, build on it, deploy it — credit the source. -
 
 **github.com/jegly/open-invention** — more inventions coming.
 
-**github.com/jegly/open-invention**
 
 ---
 
