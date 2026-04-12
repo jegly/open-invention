@@ -261,6 +261,10 @@ Perovskite PV cells capture energy from visible light. Directly beneath them, th
 
 Conventional tarmac: **0%**
 
+![SolarRoad self heating — snow](./images/11-self-heating-surface.png)
+
+
+
 ---
 
 ## Gradual Rollout
