@@ -4,7 +4,7 @@
 
 **SolarRoad** is an open invention proposal for a fully integrated, self-powered road and urban energy ecosystem. Inspired by the simplicity of Scalextric — toy cars powered by an electric circuit track — this project proposes applying that same principle at civilisation scale: roads that power the vehicles travelling on them, harvest solar and thermal energy, guide autonomous transport, and eliminate fossil fuel dependency entirely.
 
-No petrol. No emissions. No grid dependency.
+No petrol. No emissions. No traffic jams. No road deaths.
 
 ---
 
@@ -18,6 +18,45 @@ A child's Scalextric set is a perfect proof of concept. The car needs no engine,
 
 Every road surface becomes a solar collector. Every building window becomes a power generator. Every vehicle draws power from the road itself. Underground superconducting cables carry that energy with near-zero loss. AI manages the entire network in real time.
 
+This is not science fiction. Every component technology exists today. The innovation is in integration, materials engineering, and the will to deploy.
+
+---
+
+## The Case for Acting Now
+
+Petrol is finite. That fact alone makes this transition inevitable — the only question is whether we do it proactively or wait until we are forced to. The long-term benefits to the planet, to human health, and to future generations vastly outweigh the initial investment cost. The rollout would be gradual — exactly as 4G was replaced by 5G, as gas lighting gave way to electric — road by road, city by city, country by country.
+
+The initial cost is real. So is the cost of doing nothing.
+
+Transport accounts for **24% of global CO₂ emissions — approximately 8 billion tonnes per year.** Australia alone produces ~100 million tonnes of transport CO₂ annually. Globally, **1.35 million people die on roads every year** and a further 50 million are injured — nearly all preventable with AI-managed autonomous systems.
+
+Continuing to build petrol infrastructure is not pragmatism. It is short-term thinking at civilisational scale.
+
+---
+
+## The Sydney Calculation
+
+To illustrate the energy potential, consider Sydney as a case study.
+
+**Road surface area:** Sydney's metropolitan road network covers approximately 12,000 km of roads. At an average width of 10 metres, that is **120 km² of surface** — all of it currently absorbing sunlight and radiating it back as waste heat.
+
+With transparent solar substrate and Sydney's average of 5.5 peak sun hours per day:
+
+| Source | Daily generation | Annual generation |
+|---|---|---|
+| Solar road substrate (conservative, 10% efficiency) | 66,000 MWh | 24,090 GWh |
+| Solar road substrate (optimistic, 20% efficiency) | 132,000 MWh | 48,180 GWh |
+| Solar building glass (50,000 buildings, 8% efficiency) | 11,000 MWh | 4,015 GWh |
+| Thermal harvesting — TEG road modules (5% efficiency) | 26,400 MWh | 9,636 GWh |
+| **Total (conservative)** | **103,400 MWh** | **37,741 GWh** |
+| **Total (optimistic)** | **169,400 MWh** | **61,831 GWh** |
+
+Sydney's total annual electricity consumption is approximately **45,000 GWh.**
+
+At conservative technology levels, the SolarRoad system covers **~84% of Sydney's entire electricity demand** — roads and buildings alone, before any other renewable input. At near-future efficiency targets, the system becomes a **net energy exporter at 137% of consumption** — powering homes, industry, and feeding surplus back to the wider grid.
+
+The road network stops being infrastructure that costs public money. It becomes infrastructure that generates it.
+
 ---
 
 ## System Architecture — Five Layers
@@ -25,217 +64,237 @@ Every road surface becomes a solar collector. Every building window becomes a po
 ### ☀️ Layer 1 — Solar Collection
 
 **Transparent solar road substrate**
-The road surface is replaced with a load-bearing transparent resin composite embedded with photovoltaic cells. Vehicles drive on it normally; sunlight passes through and is converted to electricity below. The material is engineered for:
-- High compressive and shear strength (equivalent to or exceeding standard tarmac)
-- Maximum solar transmittance — cells sit beneath a durable, skid-resistant outer layer
-- Thermal stability across extreme temperature ranges
-- Self-cleaning surface properties to maintain solar efficiency
+The road surface is replaced with a load-bearing transparent resin composite embedded with photovoltaic cells. Vehicles drive on it normally; sunlight passes through and is converted to electricity below. Engineered for high compressive strength, maximum solar transmittance, thermal stability, and self-cleaning surface properties.
 
 **Solar building glass (metropolitan deployment)**
-In cities, conventional windows in high-rise buildings are replaced with transparent photovoltaic panels. Buildings retain full visual transparency — occupants can see out normally — while every window surface generates electricity. At scale across a metropolitan skyline, this turns the built environment into a distributed power station.
+In cities, conventional windows are replaced with transparent photovoltaic panels. Buildings retain full visual transparency while every window generates electricity. Combined with thermal conversion of solar heat absorbed by building facades, the entire built environment becomes a distributed power station. In a city like Sydney, where towers receive direct sunlight across enormous glass facades, the energy yield is substantial — see the Sydney Calculation above.
 
 **Relay energy stations**
-Distributed battery hubs positioned along road networks act as local storage and distribution nodes. They buffer energy between collection and demand, ensure no single point of failure, and handle the variable nature of solar input. Built with solid-state graphene batteries or next-generation nuclear batteries for maximum energy density, shelf life, and minimal self-discharge.
+Distributed battery hubs along road networks act as local storage and distribution nodes. They buffer energy between collection and demand, ensure no single point of failure, and handle the variable nature of solar input. Built with solid-state graphene batteries or next-generation nuclear batteries for maximum energy density and minimal self-discharge. Relay stations also serve as redundancy nodes — if any section fails, adjacent stations cover demand automatically.
 
 ---
 
 ### 🛣️ Layer 2 — The Active Road Bed
 
-The road itself is a multi-layer engineered system. From surface to base:
-
 **Surface: transparent solar resin composite**
-The visible driving surface. Transparent enough to pass usable light to the PV layer below, tough enough to handle heavy vehicle loads, and textured for grip. This replaces conventional tarmac and is the key material science challenge of the system.
+The visible driving surface. Transparent enough to pass usable light to the PV layer below, tough enough to handle heavy vehicle loads, textured for grip. Replaces conventional tarmac. See Section 1 for material science detail.
 
 **Inductive power track**
-Embedded beneath the surface, continuous inductive coils deliver wireless power to vehicles in motion — exactly as a Scalextric track powers its cars. Vehicles equipped with receiver coils draw energy continuously while driving. Onboard batteries become emergency backup and range-extenders, not the primary power source. A vehicle never needs to stop to charge.
+Continuous inductive coils deliver wireless power to vehicles in motion — the Scalextric principle at civilisation scale. Vehicles draw energy continuously while driving. Onboard batteries become emergency backup, not the primary power source. A vehicle never needs to stop to charge. Existing EVs can be retrofitted with receiver coils. Conventional petrol vehicles remain fully functional throughout the transition — they simply don't draw inductive power.
 
 **Maglev rail channels**
-For designated high-speed lanes, magnetic levitation rails are embedded in the road bed. Vehicles equipped with maglev receivers are lifted fractionally from the surface, eliminating tyre-road friction entirely. This enables higher safe speeds, dramatically reduced tyre wear, reduced road surface wear, and significantly lower rolling resistance — increasing overall system efficiency.
+For high-speed lanes, magnetic levitation rails embedded in the road bed lift equipped vehicles fractionally from the surface, eliminating tyre-road friction. Higher safe speeds, dramatically reduced tyre wear, lower rolling resistance, improved energy efficiency.
 
 **Thermoelectric generator (TEG) modules**
-Road surfaces absorb enormous amounts of solar heat, especially in summer. TEG modules embedded in the lower road layers convert the temperature differential between the hot surface and the cooler substrate below directly into electricity. This harvests energy that would otherwise be wasted as heat radiation, improving total system efficiency.
+Road surfaces absorb enormous solar heat. TEG modules convert the temperature differential between hot surface and cooler substrate directly into electricity — energy that would otherwise be radiated as waste heat.
+
+**Road de-icing**
+In cold climates, resistive heating elements in the road surface — powered by stored solar energy — keep the surface above freezing. Roads that de-ice themselves. No salt, no grit, no black ice, no weather-related closures.
 
 ---
 
 ### 🌊 Layer 3 — Road Gutter and Kerb Channel
 
-The road gutter is reimagined as a multi-purpose infrastructure conduit running the full length of every road. It houses:
+The gutter becomes a multi-purpose infrastructure conduit running the full length of every road:
 
-- **Fibre optic AI data network** — real-time connectivity between vehicles, road sensors, relay stations, and the central AI traffic management system
-- **Rainwater harvesting channels** — passive collection of precipitation for urban water supply, reducing demand on mains systems
-- **Road sensor arrays** — continuous monitoring of traffic flow, structural integrity, surface temperature, weather conditions, and emergency events
-- **Utility conduit** — power distribution lines, communications infrastructure, and thermal management pipelines all share the same protected channel, reducing the need for separate civil engineering works
+- **Fibre optic AI data network** — real-time connectivity between vehicles, sensors, relay stations, and central AI
+- **Rainwater harvesting** — passive precipitation collection for urban water supply
+- **Road sensor arrays** — continuous monitoring of traffic, structural integrity, temperature, weather, and emergencies. Sensors serve dual purpose: primary monitoring and system redundancy — adjacent clusters cover any failed unit seamlessly
+- **Utility conduit** — power, communications, and thermal management in a single protected channel, reducing civil engineering requirements
+- **Pedestrian and cyclist integration** — pavement-side inductive charging strips for e-bikes, e-scooters, and mobility devices; pedestrian safety sensors feeding the AI system at junctions
 
 ---
 
 ### 🔋 Layer 4 — Underground Superconducting Layer
 
-Beneath the road, a zero-loss energy transmission network:
-
 **Superconducting power cables in vacuum chambers**
-Conventional power cables lose energy as heat through electrical resistance. Superconducting cables at low temperatures have near-zero resistance — energy travels from solar collection point to storage or end-use with minimal loss. The cables are housed in insulated vacuum chambers beneath the road, maintaining the operating temperature required for superconductivity. This is the backbone of the grid, enabling long-distance energy transport without the losses that make conventional grid transmission inefficient.
+Conventional cables lose energy as heat through resistance. Superconducting cables at low temperatures have near-zero resistance — energy travels from collection to storage to end-use with minimal loss. Housed in insulated vacuum chambers beneath the road, forming the zero-loss energy backbone of the network.
 
 **Direct energy storage nodes**
-Distributed underground storage nodes sit at intervals along the network. The design principle is minimal conversion steps — each time energy changes form (electrical to chemical to electrical, for example) a percentage is lost as heat. The system is designed to minimise these conversions: solar electricity goes directly to storage as electricity (in capacitors or solid-state batteries) and is delivered directly back as electricity. Graphene-based supercapacitors offer extremely fast charge and discharge with very high cycle life. Solid-state batteries offer high energy density with long shelf life. The optimal mix is deployment-context dependent.
+Underground storage at distributed intervals. Design principle: minimise conversion steps — each conversion loses energy. Solar electricity goes directly to electrical storage and is delivered back as electricity. Graphene supercapacitors for fast-response buffering. Solid-state batteries for day-scale storage.
 
 ---
 
 ### 🤖 Layer 5 — AI Autonomous Vehicle System
 
 **AI central traffic management**
-A city-wide AI system manages all vehicle routing in real time. With vehicles operating on a powered track system with known positions, speeds, and destinations, traffic flow becomes a mathematical optimisation problem rather than a chaotic emergent behaviour. Traffic lights become unnecessary. Congestion is eliminated by design. Emergency vehicle routing is instantaneous.
+A city-wide AI system manages all vehicle routing in real time. Traffic flow becomes a mathematical optimisation problem — not chaotic emergent behaviour. Traffic lights become unnecessary. Congestion is eliminated by design. In major cities, the efficiency gain alone represents a significant reduction in wasted energy, time, and pollution from idling.
+
+**Emergency vehicle priority**
+Ambulances, fire engines, and police receive absolute routing priority. A clear corridor opens ahead of an emergency vehicle in real time across the entire network. Response times improve. Lives are saved directly.
+
+**Zero road deaths**
+Human error causes over 90% of road accidents. Remove human error through AI routing, maglev guidance, and vehicle-to-vehicle communication, and road deaths approach zero. Globally, **1.35 million lives per year.** This may be the single most significant humanitarian impact of the entire system.
 
 **Autonomous and driver-assisted vehicles**
-Vehicles on the SolarRoad network operate in fully autonomous mode (AI-managed, no driver input required) or driver-assisted mode (human maintains awareness and override capability). On maglev high-speed lanes, full autonomy is the default — the physics of magnetic guidance make human reaction times irrelevant. On standard urban roads, both modes are available.
+Fully autonomous on SolarRoad infrastructure, or driver-assisted with human override at all times. Vehicles can leave the circuit and travel on conventional roads normally. The system is opt-in by design throughout the transition.
 
 **Vehicle-to-grid energy balancing**
-Parked or slow-moving vehicles with charged onboard batteries act as distributed storage nodes, feeding surplus energy back into the road network. The entire vehicle fleet becomes part of the energy grid — a massive, geographically distributed battery that stabilises supply and demand across the network.
+Parked vehicles feed surplus battery energy back into the road network and into homes. The entire vehicle fleet becomes a distributed storage grid — a geographically dispersed battery stabilising supply and demand around the clock.
+
+**Noise reduction**
+Maglev guidance and smooth composite surfaces eliminate the majority of tyre-road and mechanical noise. Cities become significantly quieter — a quality-of-life improvement that costs nothing beyond the infrastructure already described.
 
 ---
 
 ## Section 1 — Solar Substrate Material Science
 
-The transparent road surface is the most novel and most critical component of the system. Current state-of-the-art and the development path:
+The transparent road surface is the most novel and critical component. Everything else — maglev, inductive charging, AI routing, superconductors — exists in deployed forms today. The solar substrate is what makes this genuinely new.
 
-**Existing transparent PV technology**
-Transparent photovoltaic cells already exist and are commercially available, primarily for building integration (windows, skylights). Current transparent PV panels achieve 1–10% solar efficiency at high transparency (>60% visible light transmission), versus 20–22% for conventional opaque solar panels. The trade-off between transparency and efficiency is the central material challenge.
+**The core trade-off**
+Transparency and solar efficiency pull against each other. Current transparent PV achieves 1–10% efficiency at high transparency (>60% visible light transmission), versus 20–22% for conventional opaque panels. Closing that gap is the central challenge.
 
 **Road-specific requirements**
-A road-surface PV composite must simultaneously achieve:
-- Compressive strength: minimum 10 MPa (equivalent to standard road surface)
-- Skid resistance: wet surface friction coefficient ≥ 0.45
-- Solar transmittance: ≥ 40% to the PV layer below
-- Temperature range: −40°C to +85°C without delamination or brittleness
-- Expected service life: ≥ 20 years under traffic loading
 
-**Current leading approaches**
-- *Perovskite solar cells* — high efficiency potential, improving stability, can be manufactured as thin films compatible with composite integration
-- *Organic photovoltaics (OPV)* — flexible, lightweight, printable, lower efficiency but highly compatible with resin composite embedding
-- *Quantum dot PV* — tuneable absorption spectrum, potential for high efficiency at high transparency, currently early-stage
+| Property | Requirement |
+|---|---|
+| Compressive strength | ≥ 10 MPa |
+| Skid resistance (wet) | Friction coefficient ≥ 0.45 |
+| Solar transmittance | ≥ 40% to PV layer |
+| Temperature range | −40°C to +85°C without delamination |
+| Service life | ≥ 20 years under traffic loading |
+| Surface hardness | Vickers hardness ≥ 600 HV |
 
-**The resin composite matrix**
-The PV cells are embedded within a layered resin composite. The outer layer is a hardened, textured, UV-stable polymer providing the driving surface. The mid-layer contains the PV cells in a transparent encapsulant (similar to standard solar panel encapsulation). The base layer bonds to the road substrate and contains the electrical interconnects and TEG modules.
+**Leading PV approaches**
 
-**Key R&D targets**
-- Transparent PV efficiency: target ≥ 15% at ≥ 50% transmittance
-- Surface hardness: Vickers hardness ≥ 600 HV (comparable to tempered glass)
+*Perovskite solar cells* — high efficiency potential, rapidly improving stability, manufacturable as thin films. Lab efficiency records now exceed 25%.
+
+*Organic photovoltaics (OPV)* — flexible, lightweight, printable onto substrates. Lower efficiency but highly compatible with resin composite embedding.
+
+*Quantum dot PV* — tuneable absorption spectrum, high efficiency potential at high transparency, early-stage but promising for the specific balance required.
+
+**The composite layer structure**
+1. Outer layer — hardened, textured, UV-stable polymer (the driving surface)
+2. Encapsulant — transparent resin protecting PV cells
+3. PV cell layer — thin-film cells in a modular grid pattern
+4. TEG layer — thermoelectric modules harvesting residual heat
+5. Electrical interconnect layer — standardised modular connectors
+6. Base bonding layer — adhesion to road substrate, compatible with new construction and retrofit over existing tarmac
+
+**Retrofit compatibility**
+Panels are designed as modular tiles installable over existing tarmac — no full road reconstruction required. Essential for real-world adoption. The rollout starts with high-traffic urban arterials where energy yield and impact are greatest.
+
+**R&D targets**
+- Transparent PV efficiency: ≥ 15% at ≥ 50% transmittance
 - Self-healing polymer coating to maintain surface clarity under abrasion
-- Standardised modular panel format for retrofittable road installation
+- Standardised 1m × 1m modular tile format
+- 20-year field durability under HGV traffic loading
 
 ---
 
 ## Section 2 — Energy Storage: Technology Comparison
 
-The storage layer is critical. Every inefficiency in storage is energy permanently lost. The design principle is: **minimise conversion steps, maximise round-trip efficiency, maximise energy density, maximise cycle life.**
+Design principle: **minimise conversion steps, maximise round-trip efficiency, maximise energy density, maximise cycle life.**
 
 ### Graphene-based supercapacitors
 
 | Property | Value |
 |---|---|
 | Round-trip efficiency | ~95–98% |
-| Energy density | ~10–30 Wh/kg (improving) |
+| Energy density | ~10–30 Wh/kg (rapidly improving) |
 | Cycle life | >1,000,000 cycles |
 | Charge/discharge speed | Seconds to minutes |
-| Temperature range | −40°C to +70°C |
 | Self-discharge | Moderate (days to weeks) |
 
-Best suited for: short-term buffer storage at relay stations; vehicle-to-grid peak balancing; high-frequency charge/discharge applications. The extremely high cycle life makes graphene supercapacitors ideal for the continuous charge-discharge demands of a road network relay station.
+Best for: short-term buffer storage at relay stations, vehicle-to-grid peak balancing, high-frequency charge/discharge applications.
 
 ### Solid-state batteries
 
 | Property | Value |
 |---|---|
 | Round-trip efficiency | ~90–95% |
-| Energy density | ~400–500 Wh/kg (projected) |
+| Energy density | ~400–500 Wh/kg (projected near-term) |
 | Cycle life | ~5,000–10,000 cycles |
 | Charge/discharge speed | Minutes to hours |
-| Temperature range | −20°C to +60°C |
 | Self-discharge | Very low (months to years) |
 
-Best suited for: long-term strategic storage; relay stations requiring days of stored capacity; vehicle onboard batteries. Solid-state batteries have no liquid electrolyte, eliminating fire risk and improving both safety and longevity.
+Best for: long-term strategic storage, relay stations requiring days of stored capacity, vehicle onboard batteries. No liquid electrolyte — no fire risk.
 
-### Nuclear batteries (betavoltaics / radioisotope)
+### Nuclear batteries (betavoltaics)
 
 | Property | Value |
 |---|---|
-| Round-trip efficiency | N/A (direct conversion) |
-| Energy density | Extremely high (years of output) |
-| Cycle life | N/A (continuous low-power output) |
-| Output | Low, continuous, ultra-reliable |
+| Output type | Low, continuous, ultra-reliable |
 | Service life | 10–50 years depending on isotope |
 | Self-discharge | None |
 
-Best suited for: powering always-on road sensor arrays; maintaining superconducting vacuum chamber systems; backup power for AI traffic nodes. Nuclear batteries are not high-power storage devices — they are ultra-reliable, ultra-long-life low-power sources. Ideal for the infrastructure elements of the network that must never go offline.
+Best for: always-on sensor arrays, superconducting vacuum chamber maintenance, AI traffic node backup power. Not high-power devices — ultra-reliable long-life sources for infrastructure that must never go offline.
+
+### Superconducting magnetic energy storage (SMES)
+
+Underground SMES units store energy as a persistent magnetic field in a superconducting coil — near-zero losses over time, near-instantaneous charge/discharge. Suitable for large-scale grid balancing at major network nodes.
 
 ### Recommended hybrid architecture
 
-No single technology is optimal for all use cases. The recommended storage architecture is:
-
-1. **Graphene supercapacitors** at every relay station for immediate-response buffering and vehicle-to-grid exchange
-2. **Solid-state batteries** in relay stations for day-scale storage and vehicle onboard power
-3. **Nuclear batteries** for sensor networks, AI infrastructure nodes, and superconducting system maintenance power
-4. **Underground superconducting magnetic energy storage (SMES)** for grid-scale, zero-loss, fast-response bulk storage at major nodes
-
-The combination achieves high round-trip efficiency, long service life, and resilience against demand spikes, supply interruptions, and component failure.
+| Layer | Technology | Purpose |
+|---|---|---|
+| Relay stations — fast response | Graphene supercapacitors | Immediate demand buffering |
+| Relay stations — day storage | Solid-state batteries | 24-hour supply coverage |
+| Infrastructure nodes | Nuclear batteries | Always-on sensor and AI power |
+| Grid-scale bulk storage | SMES underground | Large-scale balancing, zero loss |
+| Vehicle onboard | Solid-state batteries | Range extension and V2G |
 
 ---
 
-## Environmental Impact
+## Gradual Rollout
+
+This is a generational infrastructure upgrade — the same category of change as electrifying railways, rolling out the internet, or the transition from analogue to digital. Each of those transitions seemed impossibly large before they happened and inevitable in retrospect.
+
+**Phase 1** — 100m test road segment. Solar composite surface, inductive charging, embedded sensors. Real-world energy yield and surface durability validated.
+
+**Phase 2** — 1km urban corridor. Full gutter conduit and underground superconducting backbone. End-to-end energy transmission efficiency validated.
+
+**Phase 3** — Relay station network. Stations at 500m intervals. Day/night storage cycle validated.
+
+**Phase 4** — Autonomous vehicle integration. AI fleet management, vehicle-to-grid exchange, maglev guidance, emergency priority routing validated.
+
+**Phase 5** — Metropolitan pilot. 500m city road plus one high-rise with solar PV glass. Full system integration. Net energy generation measured.
+
+**Phase 6 onwards** — City-by-city, road-by-road expansion. Existing EVs retrofitted with receiver coils. Conventional vehicles continue to operate throughout. No forced obsolescence.
+
+---
+
+## Impact Summary
 
 | Factor | Current system | SolarRoad |
 |---|---|---|
-| Road transport emissions | ~16% of global CO₂ | Zero (electric, grid-powered) |
-| Building energy (windows) | Net consumer | Net generator |
-| Road surface heat radiation | Wasted | Harvested (TEG) |
+| Road transport CO₂ (global) | ~8 billion tonnes/year | Zero |
+| Road deaths (global) | ~1,350,000/year | Approaching zero |
+| Road injuries (global) | ~50,000,000/year | Approaching zero |
 | Grid transmission loss | 8–15% average | <1% (superconducting) |
-| Vehicle idle/congestion fuel waste | Significant | Eliminated (AI routing) |
-| Road maintenance frequency | Every 10–15 years | Extended (sealed composite surface) |
+| Road surface heat waste | 100% wasted | Harvested via TEG |
+| Urban noise pollution | Significant | Dramatically reduced |
+| City electricity (Sydney model) | Grid-dependent | 84–137% self-generated |
+| Road maintenance | Reactive, frequent | Predictive, extended lifecycle |
 
 ---
 
-## Current Technology Readiness
+## Technology Readiness
 
-All component technologies exist. None requires new physics. The innovation is in integration, materials engineering, and deployment at scale.
+All component technologies exist. None requires new physics.
 
 | Component | TRL (1–9) | Primary challenge |
 |---|---|---|
 | Transparent PV road surface | 3–4 | Efficiency + durability under load |
-| Inductive road charging (moving) | 5–6 | Standardisation + cost |
-| Embedded maglev (road-scale) | 4–5 | Integration with existing road formats |
-| Superconducting underground grid | 6–7 | Cost of cooling infrastructure |
-| Solid-state batteries | 6–7 | Manufacturing scale |
+| Inductive road charging (moving vehicles) | 5–6 | Standardisation + cost |
+| Embedded maglev (road-scale) | 4–5 | Integration with road formats |
+| Superconducting underground grid | 6–7 | Cooling infrastructure cost |
+| Solid-state batteries | 6–7 | Manufacturing at scale |
 | Graphene supercapacitors | 5–6 | Energy density improvement |
-| Autonomous vehicle AI | 7–8 | Regulatory approval |
+| Autonomous vehicle AI | 7–8 | Regulatory frameworks |
 | Transparent PV building glass | 5–6 | Efficiency at high transparency |
 
 *TRL = Technology Readiness Level. 9 = fully deployed commercial technology.*
 
 ---
 
-## Proposed Development Path
-
-**Phase 1 — Material and component validation**
-100m test road segment with transparent solar composite surface, inductive charging, embedded sensors. Measure energy yield, surface durability, and charging efficiency under real traffic.
-
-**Phase 2 — Gutter and underground integration**
-Extend to 1km corridor. Install full gutter conduit system and underground superconducting backbone. Validate energy transmission efficiency end-to-end.
-
-**Phase 3 — Relay station and storage network**
-Deploy relay battery stations at 500m intervals along the test corridor. Validate charge/discharge behaviour under variable solar input and demand.
-
-**Phase 4 — Autonomous vehicle integration**
-Introduce AI-managed autonomous vehicle fleet on the test corridor. Validate vehicle-to-grid energy exchange, AI routing, and maglev guidance.
-
-**Phase 5 — Metropolitan pilot**
-500m of urban road + one high-rise building with solar PV glass. Full system integration test. Measure net energy generation vs consumption. This is the proof-of-concept for zero-emission urban zones.
-
----
-
 ## Licence
 
-This invention proposal is released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+Released under **Creative Commons Attribution 4.0 International (CC BY 4.0).**
 
-You are free to share, adapt, and build upon this work for any purpose, including commercial, provided you credit the original proposal. -Jesse Li-Yates
+Share it, build on it, deploy it — credit the source. Jesse Li-Yates
+
+**github.com/jegly/open-invention**
 
 ---
 
