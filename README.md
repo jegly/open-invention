@@ -55,6 +55,8 @@ With transparent solar substrate and Sydney's average of 5.5 peak sun hours per 
 | **Total (conservative)** | **103,400 MWh** | **37,741 GWh** |
 | **Total (optimistic)** | **169,400 MWh** | **61,831 GWh** |
 
+![SolarRoad city overview — Sydney deployment model](./images/09-city-overview.svg)
+
 Sydney's total annual electricity consumption is approximately **45,000 GWh.**
 
 At conservative technology levels, the SolarRoad system covers **~84% of Sydney's entire electricity demand** — roads and buildings alone, before any other renewable input. At near-future efficiency targets, the system becomes a **net energy exporter at 137% of consumption** — powering homes, industry, and feeding surplus back to the wider grid.
@@ -64,7 +66,7 @@ The road network stops being infrastructure that costs public money. It becomes 
 ![Sydney CBD — solar PV glass facades on every skyscraper, energy flowing to the road grid](./images/05-sydney-solar-glass.png)
 
 ---
-
+![SolarRoad system blueprint — full five layer overview](./images/10-system-blueprint.svg)
 ## System Architecture — Five Layers
 
 ![SolarRoad 5-layer architecture — exploded view](./images/07-5layer-architecture.png)
