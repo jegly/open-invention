@@ -235,7 +235,7 @@ Introduce AI-managed autonomous vehicle fleet on the test corridor. Validate veh
 
 This invention proposal is released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
-You are free to share, adapt, and build upon this work for any purpose, including commercial, provided you credit the original proposal.
+You are free to share, adapt, and build upon this work for any purpose, including commercial, provided you credit the original proposal. -Jesse Li-Yates
 
 ---
 
