@@ -182,6 +182,79 @@ Panels are designed as modular tiles installable over existing tarmac — no ful
 
 ---
 
+## Section 3 — Substrate Material Science: The Full Stack
+
+The substrate is where solar collection, thermal harvesting, structural strength, and electrical generation all have to coexist in a single tile under the weight of vehicles, temperature extremes, and decades of weather. Getting the material stack right is the engineering heart of the entire system.
+
+### The Core Principle: Harvest the Same Sunlight Twice
+
+The most promising architecture combines two harvesting mechanisms in the same substrate layer. Perovskite PV cells capture energy from visible light. Directly beneath them, thermoelectric generator (TEG) modules capture the heat that the PV cells themselves generate — solar cells get hot under load and lose efficiency as a result. Rather than losing that heat, TEG modules convert it into a second stream of electricity from the same surface area. You are harvesting the same incoming sunlight through two different physical effects simultaneously.
+
+Combined theoretical yield from a single surface: **20–28%** — significantly better than either technology deployed alone.
+
+### The Full Substrate Stack (Surface to Base)
+
+**Layer 1 — Alumina-reinforced polymer wear surface (8–12mm)**
+The outer driving surface. A transparent ceramic-polymer hybrid — alumina particles suspended in a hardened polymer matrix — provides the compressive and shear strength needed for HGV loading while maintaining the transparency required to pass light to the PV layer below. Textured at the micro-scale for wet grip. Similar composite materials are already used in bulletproof glass, aircraft canopies, and high-load industrial flooring. This is the layer that takes the punishment.
+
+**Layer 2 — Perovskite thin-film PV layer**
+Captures visible light and converts it to electricity. Perovskite solar cells are manufacturable as thin films — they can be deposited directly onto the encapsulant layer below the wear surface without adding significant thickness or rigidity. Lab efficiency now exceeds 25%; real-world integrated efficiency target for this application is 15–20%. The cells are arranged in a modular grid pattern with interconnects running to the edges of each tile.
+
+**Layer 3 — Transparent encapsulant**
+A clear polymer resin that protects the PV cells from mechanical stress and moisture while passing residual infrared radiation — heat — downward to the TEG layer below. Acts as both a structural bond and an optical pathway. Similar encapsulants are used in conventional solar panel manufacturing today.
+
+**Layer 4 — Bismuth telluride TEG modules**
+Bismuth telluride (Bi₂Te₃) is the industry-standard thermoelectric material for low-to-mid temperature differentials — exactly the operating range of a road surface. On a hot day, the road surface reaches 60–70°C while just 10cm below ground sits at 15–20°C. That 40–50°C differential drives the TEG modules at approximately 5–8% thermal conversion efficiency. Not dramatic on its own — but this is energy that would otherwise be entirely wasted as radiated heat. Combined with the PV layer above, the total system yield improves significantly.
+
+**Layer 5 — Graphene heat spreader and electrical conductor**
+A graphene sheet bonded between the TEG modules and the insulating base layer serves two functions simultaneously. As a thermal conductor, it distributes heat evenly across all TEG modules in the tile — preventing hot spots that reduce efficiency and create thermal stress. As an electrical conductor, it forms part of the collection network, routing generated current to the tile interconnects. Graphene's exceptional properties in both thermal and electrical conductivity make it uniquely suited to this dual role. It also adds negligible thickness and weight.
+
+**Layer 6 — Thermal insulating base**
+Maintains the temperature differential that the TEG modules depend on. The hot side of the TEG must stay hot; the cold side must stay cold. Without insulation between the TEG base and the ground below, the differential collapses and TEG output drops toward zero. A aerogel composite insulating layer — the same class of material used in aerospace and industrial thermal management — maintains the gradient efficiently.
+
+**Layer 7 — Flexible adhesive bonding layer**
+Bonds the entire tile assembly to the existing road substrate. Must accommodate the differential thermal expansion between the tile materials above and the concrete or tarmac below — different materials expand and contract at different rates across temperature cycles, and over millions of vehicle passes this causes delamination if not managed. A graphene-particle-infused flexible adhesive accommodates this movement while maintaining both mechanical bond strength and electrical continuity between tiles.
+
+### Thermal Expansion: The Key Engineering Challenge
+
+Different materials in the stack expand and contract at different rates as temperature changes — this mismatch is the primary cause of delamination and the most significant long-term durability challenge. The rates involved:
+
+| Material | Thermal expansion coefficient |
+|---|---|
+| Alumina-polymer composite | ~15–20 ppm/°C |
+| Perovskite thin film | ~10–12 ppm/°C |
+| Bismuth telluride (TEG) | ~18–20 ppm/°C |
+| Graphene | ~−0.5 to +1 ppm/°C (near-zero) |
+| Concrete road base | ~10–12 ppm/°C |
+| Tarmac road base | ~25–30 ppm/°C |
+
+Graphene's near-zero thermal expansion is a key advantage here — as both the heat spreader and the bonding layer additive, it acts as a mechanical buffer between layers with mismatched expansion rates. The flexible adhesive bonding layer (Layer 7) absorbs residual differential movement at the tile-to-road interface.
+
+### Combined Efficiency Summary
+
+| Harvest mechanism | Energy source | Target efficiency | Notes |
+|---|---|---|---|
+| Perovskite PV (Layer 2) | Visible light | 15–20% | Of incident solar energy |
+| Bismuth telluride TEG (Layer 4) | Road surface heat | 5–8% | Of thermal energy at 40–50°C differential |
+| Combined system yield | Solar + thermal | **20–28%** | From same surface area simultaneously |
+
+For context, conventional tarmac converts 0% of incident solar energy — it absorbs it and radiates it back as heat, contributing to the urban heat island effect. The SolarRoad substrate converts the majority of that same energy into stored electricity.
+
+### Current Material Readiness
+
+| Material | Commercial availability | Readiness for road application |
+|---|---|---|
+| Alumina-polymer composites | Commercially available | Adaptation needed for road scale |
+| Perovskite thin-film PV | Lab / early commercial | Durability under load needs development |
+| Transparent encapsulant resins | Commercially available | Direct application possible |
+| Bismuth telluride TEG modules | Commercially available | Road-scale integration needs development |
+| Graphene sheets / additives | Early commercial | Scaling and cost reduction ongoing |
+| Aerogel insulating composites | Commercially available | Direct application possible |
+
+No exotic or theoretical materials are required. Every material in the stack is either commercially available today or in early commercial production. The work is in integration, durability testing, and manufacturing at road scale.
+
+---
+
 ## Section 2 — Energy Storage: Technology Comparison
 
 Design principle: **minimise conversion steps, maximise round-trip efficiency, maximise energy density, maximise cycle life.**
@@ -292,7 +365,7 @@ All component technologies exist. None requires new physics.
 
 Released under **Creative Commons Attribution 4.0 International (CC BY 4.0).**
 
-Share it, build on it, deploy it — credit the source. Jesse Li-Yates
+Share it, build on it, deploy it — credit the source. - Jesse Li-Yates 2018
 
 **github.com/jegly/open-invention**
 
