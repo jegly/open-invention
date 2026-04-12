@@ -1,0 +1,95 @@
+<svg width="800" height="900" viewBox="0 0 680 780" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+<rect width="800" height="900" fill="#0d1117"/>
+<circle cx="340" cy="32" r="18" fill="#EF9F27" opacity="0.9"/>
+<line x1="340" y1="6" x2="340" y2="1" stroke="#EF9F27" stroke-width="1.5"/>
+<line x1="316" y1="14" x2="312" y2="10" stroke="#EF9F27" stroke-width="1.5"/>
+<line x1="364" y1="14" x2="368" y2="10" stroke="#EF9F27" stroke-width="1.5"/>
+<line x1="318" y1="32" x2="312" y2="32" stroke="#EF9F27" stroke-width="1.5"/>
+<line x1="362" y1="32" x2="368" y2="32" stroke="#EF9F27" stroke-width="1.5"/>
+<line x1="320" y1="52" x2="230" y2="90" stroke="#EF9F27" stroke-width="0.8" stroke-dasharray="4 3" opacity="0.6"/>
+<line x1="340" y1="52" x2="340" y2="92" stroke="#EF9F27" stroke-width="0.8" stroke-dasharray="4 3" opacity="0.6"/>
+<line x1="360" y1="52" x2="450" y2="90" stroke="#EF9F27" stroke-width="0.8" stroke-dasharray="4 3" opacity="0.6"/>
+<!-- L1: Alumina-polymer wear surface -->
+<polygon points="180,76 500,76 500,96 180,96" fill="#85B7EB" opacity="0.35"/>
+<polygon points="140,100 460,100 500,76 180,76" fill="#B5D4F4" opacity="0.55"/>
+<polygon points="460,100 500,76 500,108 460,132" fill="#378ADD" opacity="0.4"/>
+<polygon points="140,100 140,132 460,132 460,100" fill="#85B7EB" opacity="0.5"/>
+<text x="295" y="120" text-anchor="middle" font-size="12" font-weight="600" fill="#0C447C">Layer 1 — alumina-polymer wear surface</text>
+<line x1="462" y1="116" x2="520" y2="108" stroke="#378ADD" stroke-width="0.5" stroke-dasharray="3 2"/>
+<text x="524" y="112" font-size="11" fill="#185FA5">8–12 mm</text>
+<!-- L2: Perovskite PV -->
+<polygon points="140,148 460,148 500,124 180,124" fill="#FAC775" opacity="0.6"/>
+<polygon points="460,148 500,124 500,140 460,164" fill="#BA7517" opacity="0.5"/>
+<polygon points="140,148 140,164 460,164 460,148" fill="#EF9F27" opacity="0.55"/>
+<line x1="180" y1="150" x2="460" y2="150" stroke="#854F0B" stroke-width="0.4" opacity="0.5"/>
+<line x1="247" y1="148" x2="247" y2="164" stroke="#854F0B" stroke-width="0.4" opacity="0.5"/>
+<line x1="320" y1="148" x2="320" y2="164" stroke="#854F0B" stroke-width="0.4" opacity="0.5"/>
+<line x1="393" y1="148" x2="393" y2="164" stroke="#854F0B" stroke-width="0.4" opacity="0.5"/>
+<text x="295" y="159" text-anchor="middle" font-size="12" font-weight="600" fill="#412402">Layer 2 — perovskite thin-film PV cells</text>
+<line x1="462" y1="156" x2="520" y2="140" stroke="#BA7517" stroke-width="0.5" stroke-dasharray="3 2"/>
+<text x="524" y="144" font-size="11" fill="#633806">15–20% efficiency</text>
+<!-- L3: Transparent encapsulant -->
+<polygon points="140,192 460,192 500,168 180,168" fill="#9FE1CB" opacity="0.4"/>
+<polygon points="460,192 500,168 500,184 460,208" fill="#1D9E75" opacity="0.35"/>
+<polygon points="140,192 140,208 460,208 460,192" fill="#5DCAA5" opacity="0.4"/>
+<text x="295" y="203" text-anchor="middle" font-size="12" font-weight="600" fill="#085041">Layer 3 — transparent encapsulant resin</text>
+<line x1="462" y1="200" x2="520" y2="172" stroke="#1D9E75" stroke-width="0.5" stroke-dasharray="3 2"/>
+<text x="524" y="176" font-size="11" fill="#0F6E56">IR passes through</text>
+<!-- L4: Bismuth telluride TEG -->
+<polygon points="140,236 460,236 500,212 180,212" fill="#F0997B" opacity="0.6"/>
+<polygon points="460,236 500,212 500,256 460,280" fill="#993C1D" opacity="0.5"/>
+<polygon points="140,236 140,280 460,280 460,236" fill="#D85A30" opacity="0.55"/>
+<rect x="165" y="248" width="28" height="18" rx="2" fill="#712B13" opacity="0.6"/>
+<rect x="210" y="248" width="28" height="18" rx="2" fill="#712B13" opacity="0.6"/>
+<rect x="255" y="248" width="28" height="18" rx="2" fill="#712B13" opacity="0.6"/>
+<rect x="300" y="248" width="28" height="18" rx="2" fill="#712B13" opacity="0.6"/>
+<rect x="345" y="248" width="28" height="18" rx="2" fill="#712B13" opacity="0.6"/>
+<rect x="390" y="248" width="28" height="18" rx="2" fill="#712B13" opacity="0.6"/>
+<text x="295" y="243" text-anchor="middle" font-size="12" font-weight="600" fill="#4A1B0C">Layer 4 — bismuth telluride TEG modules</text>
+<line x1="462" y1="258" x2="520" y2="228" stroke="#993C1D" stroke-width="0.5" stroke-dasharray="3 2"/>
+<text x="524" y="232" font-size="11" fill="#993C1D">5–8% thermal eff.</text>
+<!-- L5: Graphene -->
+<polygon points="140,300 460,300 500,276 180,276" fill="#888780" opacity="0.5"/>
+<polygon points="460,300 500,276 500,288 460,312" fill="#444441" opacity="0.6"/>
+<polygon points="140,300 140,312 460,312 460,300" fill="#5F5E5A" opacity="0.55"/>
+<text x="295" y="308" text-anchor="middle" font-size="12" font-weight="600" fill="#F1EFE8">Layer 5 — graphene heat spreader</text>
+<line x1="462" y1="306" x2="520" y2="284" stroke="#5F5E5A" stroke-width="0.5" stroke-dasharray="3 2"/>
+<text x="524" y="288" font-size="11" fill="#D3D1C7">Dual thermal + electrical</text>
+<!-- L6: Aerogel -->
+<polygon points="140,348 460,348 500,324 180,324" fill="#EEEDFE" opacity="0.65"/>
+<polygon points="460,348 500,324 500,364 460,388" fill="#534AB7" opacity="0.3"/>
+<polygon points="140,348 140,388 460,388 460,348" fill="#AFA9EC" opacity="0.45"/>
+<circle cx="195" cy="368" r="3" fill="#7F77DD" opacity="0.4"/>
+<circle cx="240" cy="360" r="3" fill="#7F77DD" opacity="0.4"/>
+<circle cx="285" cy="372" r="3" fill="#7F77DD" opacity="0.4"/>
+<circle cx="330" cy="363" r="3" fill="#7F77DD" opacity="0.4"/>
+<circle cx="375" cy="370" r="3" fill="#7F77DD" opacity="0.4"/>
+<circle cx="420" cy="361" r="3" fill="#7F77DD" opacity="0.4"/>
+<text x="295" y="370" text-anchor="middle" font-size="12" font-weight="600" fill="#26215C">Layer 6 — aerogel thermal insulator</text>
+<line x1="462" y1="368" x2="520" y2="344" stroke="#534AB7" stroke-width="0.5" stroke-dasharray="3 2"/>
+<text x="524" y="348" font-size="11" fill="#534AB7">Maintains TEG delta-T</text>
+<!-- L7: Adhesive bond -->
+<polygon points="140,420 460,420 500,396 180,396" fill="#C0DD97" opacity="0.55"/>
+<polygon points="460,420 500,396 500,436 460,460" fill="#3B6D11" opacity="0.5"/>
+<polygon points="140,420 140,460 460,460 460,420" fill="#639922" opacity="0.5"/>
+<text x="295" y="444" text-anchor="middle" font-size="12" font-weight="600" fill="#173404">Layer 7 — flexible graphene adhesive bond</text>
+<line x1="462" y1="440" x2="520" y2="412" stroke="#3B6D11" stroke-width="0.5" stroke-dasharray="3 2"/>
+<text x="524" y="416" font-size="11" fill="#27500A">Retrofit over tarmac</text>
+<!-- Tarmac base -->
+<polygon points="140,476 460,476 500,452 180,452" fill="#444441" opacity="0.4"/>
+<polygon points="460,476 500,452 500,492 460,516" fill="#2C2C2A" opacity="0.5"/>
+<polygon points="140,476 140,516 460,516 460,476" fill="#30302E" opacity="0.45"/>
+<text x="295" y="498" text-anchor="middle" font-size="12" font-weight="600" fill="#D3D1C7">Existing tarmac / road substrate</text>
+<!-- Efficiency callout -->
+<rect x="140" y="540" width="400" height="60" rx="8" fill="#FAC775" opacity="0.1" stroke="#EF9F27" stroke-width="0.5"/>
+<text x="340" y="562" text-anchor="middle" font-size="13" font-weight="700" fill="#BA7517">Combined system yield: 20–28%</text>
+<text x="340" y="580" text-anchor="middle" font-size="11" fill="#854F0B">PV visible light + TEG thermal harvest from same surface</text>
+<text x="340" y="596" text-anchor="middle" font-size="11" fill="#854F0B">vs. 0% from conventional tarmac</text>
+<!-- Dimension bracket -->
+<line x1="128" y1="76" x2="128" y2="516" stroke="#888780" stroke-width="0.5"/>
+<line x1="122" y1="76" x2="134" y2="76" stroke="#888780" stroke-width="0.5"/>
+<line x1="122" y1="516" x2="134" y2="516" stroke="#888780" stroke-width="0.5"/>
+<text x="60" y="300" text-anchor="middle" font-size="11" fill="#5F5E5A">Full tile</text>
+<text x="60" y="314" text-anchor="middle" font-size="11" fill="#5F5E5A">~60–80mm</text>
+<text x="340" y="640" text-anchor="middle" font-size="10" fill="#484f58">github.com/jegly/open-invention — SolarRoad substrate exploded view — CC BY 4.0</text>
+</svg>

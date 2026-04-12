@@ -1,0 +1,113 @@
+<svg width="800" height="720" viewBox="0 0 800 720" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="720" fill="#0d1117" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="36" text-anchor="middle" font-size="18" font-weight="700" fill="#e6edf3">SolarRoad — Integrated Smart Road Ecosystem</text>
+  <text x="400" y="56" text-anchor="middle" font-size="12" fill="#8b949e">Open blueprint for zero-emission, self-powered road infrastructure</text>
+
+  <!-- LAYER 1: Solar Collection -->
+  <rect x="30" y="72" width="740" height="70" rx="8" fill="#0c2233" stroke="#1f6feb" stroke-width="1" stroke-dasharray="5 3"/>
+  <text x="44" y="92" font-size="10" fill="#58a6ff" font-weight="600" letter-spacing="1">LAYER 1 — SOLAR COLLECTION</text>
+  <!-- Sun -->
+  <circle cx="72" cy="117" r="16" fill="#d29922" opacity="0.9"/>
+  <line x1="72" y1="93" x2="72" y2="85" stroke="#d29922" stroke-width="1.5"/>
+  <line x1="72" y1="141" x2="72" y2="149" stroke="#d29922" stroke-width="1.5"/>
+  <line x1="48" y1="117" x2="40" y2="117" stroke="#d29922" stroke-width="1.5"/>
+  <line x1="96" y1="117" x2="104" y2="117" stroke="#d29922" stroke-width="1.5"/>
+  <line x1="55" y1="100" x2="49" y2="94" stroke="#d29922" stroke-width="1.5"/>
+  <line x1="89" y1="134" x2="95" y2="140" stroke="#d29922" stroke-width="1.5"/>
+  <!-- PV Windows box -->
+  <rect x="112" y="82" width="180" height="50" rx="6" fill="#1c3a5e" stroke="#1f6feb" stroke-width="1"/>
+  <text x="202" y="103" text-anchor="middle" font-size="12" font-weight="600" fill="#79c0ff">Solar building glass</text>
+  <text x="202" y="120" text-anchor="middle" font-size="10" fill="#8b949e">Transparent PV windows</text>
+  <!-- Road substrate box -->
+  <rect x="312" y="82" width="200" height="50" rx="6" fill="#2d2000" stroke="#d29922" stroke-width="1"/>
+  <text x="412" y="103" text-anchor="middle" font-size="12" font-weight="600" fill="#e3b341">Solar road substrate</text>
+  <text x="412" y="120" text-anchor="middle" font-size="10" fill="#8b949e">Transparent resin + PV cells</text>
+  <!-- Relay stations box -->
+  <rect x="532" y="82" width="220" height="50" rx="6" fill="#0d2d1a" stroke="#3fb950" stroke-width="1"/>
+  <text x="642" y="103" text-anchor="middle" font-size="12" font-weight="600" fill="#56d364">Relay energy stations</text>
+  <text x="642" y="120" text-anchor="middle" font-size="10" fill="#8b949e">Graphene / solid-state batteries</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="142" x2="400" y2="158" stroke="#d29922" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- LAYER 2: Road Cross-Section -->
+  <rect x="30" y="160" width="740" height="170" rx="8" fill="#161b22" stroke="#8b949e" stroke-width="1" stroke-dasharray="5 3"/>
+  <text x="44" y="180" font-size="10" fill="#8b949e" font-weight="600" letter-spacing="1">LAYER 2 — ROAD CROSS-SECTION</text>
+  <!-- Surface -->
+  <rect x="50" y="188" width="700" height="30" rx="4" fill="#30363d" stroke="#8b949e" stroke-width="0.5"/>
+  <text x="400" y="208" text-anchor="middle" font-size="11" fill="#e6edf3">Transparent solar resin composite surface (tarmac replacement)</text>
+  <!-- Inductive track -->
+  <rect x="50" y="224" width="700" height="30" rx="4" fill="#0c2a3a" stroke="#58a6ff" stroke-width="0.5"/>
+  <text x="200" y="244" text-anchor="middle" font-size="11" fill="#79c0ff" font-weight="600">Inductive power track</text>
+  <text x="550" y="244" text-anchor="middle" font-size="10" fill="#8b949e">Continuous wireless EV charging — the Scalextric principle</text>
+  <!-- Maglev -->
+  <rect x="50" y="260" width="700" height="30" rx="4" fill="#1e0a3c" stroke="#8957e5" stroke-width="0.5"/>
+  <text x="200" y="280" text-anchor="middle" font-size="11" fill="#bc8cff" font-weight="600">Maglev rail channels</text>
+  <text x="550" y="280" text-anchor="middle" font-size="10" fill="#8b949e">Embedded frictionless guidance for high-speed lanes</text>
+  <!-- TEG -->
+  <rect x="50" y="296" width="700" height="24" rx="4" fill="#2d1800" stroke="#d29922" stroke-width="0.5"/>
+  <text x="200" y="312" text-anchor="middle" font-size="11" fill="#e3b341" font-weight="600">Thermoelectric modules (TEG)</text>
+  <text x="550" y="312" text-anchor="middle" font-size="10" fill="#8b949e">Road heat → electricity — zero waste thermal conversion</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="330" x2="400" y2="346" stroke="#3fb950" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- LAYER 3: Gutter Channel -->
+  <rect x="30" y="348" width="740" height="100" rx="8" fill="#0d2d1a" stroke="#3fb950" stroke-width="1" stroke-dasharray="5 3"/>
+  <text x="44" y="368" font-size="10" fill="#56d364" font-weight="600" letter-spacing="1">LAYER 3 — ROAD GUTTER / KERB CHANNEL</text>
+  <rect x="50" y="378" width="162" height="58" rx="6" fill="#0a2a2a" stroke="#56d364" stroke-width="0.5"/>
+  <text x="131" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#56d364">Fibre optic</text>
+  <text x="131" y="418" text-anchor="middle" font-size="10" fill="#8b949e">AI data network</text>
+  <rect x="222" y="378" width="162" height="58" rx="6" fill="#0a2a2a" stroke="#56d364" stroke-width="0.5"/>
+  <text x="303" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#56d364">Water harvest</text>
+  <text x="303" y="418" text-anchor="middle" font-size="10" fill="#8b949e">Rainwater collection</text>
+  <rect x="394" y="378" width="162" height="58" rx="6" fill="#0a2a2a" stroke="#56d364" stroke-width="0.5"/>
+  <text x="475" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#56d364">Road sensors</text>
+  <text x="475" y="418" text-anchor="middle" font-size="10" fill="#8b949e">Traffic, weather, load</text>
+  <rect x="566" y="378" width="186" height="58" rx="6" fill="#0a2a2a" stroke="#56d364" stroke-width="0.5"/>
+  <text x="659" y="400" text-anchor="middle" font-size="11" font-weight="600" fill="#56d364">Utility conduit</text>
+  <text x="659" y="418" text-anchor="middle" font-size="10" fill="#8b949e">Power, comms, heat mgmt</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="448" x2="400" y2="464" stroke="#8b949e" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- LAYER 4: Underground -->
+  <rect x="30" y="466" width="740" height="110" rx="8" fill="#1c1c2e" stroke="#8957e5" stroke-width="1" stroke-dasharray="5 3"/>
+  <text x="44" y="486" font-size="10" fill="#bc8cff" font-weight="600" letter-spacing="1">LAYER 4 — UNDERGROUND VACUUM CHAMBERS</text>
+  <rect x="50" y="494" width="340" height="70" rx="6" fill="#150a30" stroke="#8957e5" stroke-width="0.5"/>
+  <text x="220" y="518" text-anchor="middle" font-size="12" font-weight="600" fill="#bc8cff">Superconducting cables</text>
+  <text x="220" y="536" text-anchor="middle" font-size="10" fill="#8b949e">Zero-resistance power transmission</text>
+  <text x="220" y="552" text-anchor="middle" font-size="10" fill="#8b949e">Cooled vacuum chambers underground</text>
+  <rect x="410" y="494" width="340" height="70" rx="6" fill="#150a30" stroke="#8957e5" stroke-width="0.5"/>
+  <text x="580" y="518" text-anchor="middle" font-size="12" font-weight="600" fill="#bc8cff">Direct energy storage</text>
+  <text x="580" y="536" text-anchor="middle" font-size="10" fill="#8b949e">Solid-state / graphene / nuclear batteries</text>
+  <text x="580" y="552" text-anchor="middle" font-size="10" fill="#8b949e">Long shelf life — minimal conversion loss</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="576" x2="400" y2="592" stroke="#f78166" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- LAYER 5: AI / AV -->
+  <rect x="30" y="594" width="740" height="108" rx="8" fill="#2d1b00" stroke="#f0883e" stroke-width="1" stroke-dasharray="5 3"/>
+  <text x="44" y="614" font-size="10" fill="#ffa657" font-weight="600" letter-spacing="1">LAYER 5 — AI AUTONOMOUS VEHICLE SYSTEM</text>
+  <rect x="50" y="622" width="218" height="68" rx="6" fill="#3d1800" stroke="#ffa657" stroke-width="0.5"/>
+  <text x="159" y="648" text-anchor="middle" font-size="12" font-weight="600" fill="#ffa657">AI traffic control</text>
+  <text x="159" y="665" text-anchor="middle" font-size="10" fill="#8b949e">Central routing — zero congestion</text>
+  <rect x="291" y="622" width="218" height="68" rx="6" fill="#3d1800" stroke="#ffa657" stroke-width="0.5"/>
+  <text x="400" y="648" text-anchor="middle" font-size="12" font-weight="600" fill="#ffa657">Autonomous vehicles</text>
+  <text x="400" y="665" text-anchor="middle" font-size="10" fill="#8b949e">Driverless + driver-assisted</text>
+  <rect x="532" y="622" width="218" height="68" rx="6" fill="#3d1800" stroke="#ffa657" stroke-width="0.5"/>
+  <text x="641" y="648" text-anchor="middle" font-size="12" font-weight="600" fill="#ffa657">Thermal conversion</text>
+  <text x="641" y="665" text-anchor="middle" font-size="10" fill="#8b949e">Road heat → electricity (TEG)</text>
+
+  <!-- Footer -->
+  <text x="400" y="714" text-anchor="middle" font-size="10" fill="#484f58">github.com/[yourname]/solarroad — CC BY 4.0 — Open Blueprint</text>
+</svg>
