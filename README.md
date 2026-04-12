@@ -317,7 +317,16 @@ All component technologies exist. None requires new physics.
 
 Released under **Creative Commons Attribution 4.0 International (CC BY 4.0).**
 
-Share it, build on it, deploy it — credit the source.
+Share it, build on it, deploy it — credit the source. - 
+---
+
+## Inventor
+
+**Jesse Li-Yates** — independent inventor and futurist
+
+> *"I have around 50 invention concepts covering global problems across energy, transport, medicine, food, climate, and human society. If even a fraction are built over the next 50 years, I believe they could accelerate human civilisation by 100–150 years and help save the planet."*
+
+**github.com/jegly/open-invention** — more inventions coming.
 
 **github.com/jegly/open-invention**
 
