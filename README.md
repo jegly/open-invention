@@ -8,7 +8,7 @@ No petrol. No emissions. No grid dependency.
 
 ---
 
-![SolarRoad System Blueprint](./diagrams/solarroad-blueprint.svg)
+![SolarRoad System Blueprint](./solarroad-blueprint.svg)
 
 ---
 
