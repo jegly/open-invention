@@ -121,6 +121,8 @@ By switching the polarity of road coils ahead of or behind a vehicle, the AI exe
 | Hold/Spacing | Alternating push-pull | Maintains millimetre-accurate following distance |
 | Emergency stop | Full reverse field | Physically halts vehicle faster than friction brakes |
 
+![Dynamic Propulsion Matrix Integration Diagram](images/12-dynamic-propulsion-matrix.svg)
+
 #### Why This Matters
 
 The original blueprint assumes vehicles are responsible for their own motion, with the road only providing energy and guidance. That works — but it leaves a gap. Human reaction time, varying brake performance, and tyre-road friction limits still create risk.
