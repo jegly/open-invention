@@ -1,0 +1,311 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#B0E0E6"/>
+    </linearGradient>
+    <linearGradient id="roadSurface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="copper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b87333"/>
+      <stop offset="100%" stop-color="#8B5A2B"/>
+    </linearGradient>
+    <linearGradient id="superconductor" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00BFFF"/>
+      <stop offset="50%" stop-color="#1E90FF"/>
+      <stop offset="100%" stop-color="#00BFFF"/>
+      <animate attributeName="x1" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="maglevGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF00FF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#8A2BE2" stop-opacity="0.3"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0066CC"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#CC0000"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00CC00"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#F5F5F0"/>
+  <rect y="0" width="1200" height="200" fill="url(#sky)"/>
+
+  <!-- Title -->
+  <text x="600" y="35" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">SolarRoad — Dynamic Propulsion Matrix Integration</text>
+  <text x="600" y="58" text-anchor="middle" font-size="14" fill="#555">Layer 2c: Adding Active Magnetic Propulsion to the Existing Five-Layer Blueprint</text>
+  <line x1="150" y1="70" x2="1050" y2="70" stroke="#ccc" stroke-width="1"/>
+
+  <!-- ============================================ -->
+  <!-- VEHICLE (top) -->
+  <!-- ============================================ -->
+  <g filter="url(#shadow)">
+    <!-- Car body -->
+    <rect x="420" y="80" width="260" height="60" rx="8" fill="#3a7ca5" stroke="#2c5a7a" stroke-width="2"/>
+    <path d="M440 80 L470 50 L540 50 L580 80 Z" fill="#4a8cb5" stroke="#2c5a7a" stroke-width="2"/>
+    <rect x="445" y="55" width="25" height="20" rx="3" fill="#87CEEB" opacity="0.8"/>
+    <rect x="560" y="55" width="25" height="20" rx="3" fill="#87CEEB" opacity="0.8"/>
+    <!-- Wheels -->
+    <circle cx="460" cy="145" r="18" fill="#333" stroke="#222" stroke-width="2"/>
+    <circle cx="460" cy="145" r="8" fill="#666"/>
+    <circle cx="640" cy="145" r="18" fill="#333" stroke="#222" stroke-width="2"/>
+    <circle cx="640" cy="145" r="8" fill="#666"/>
+    <!-- Labels -->
+    <text x="550" y="105" text-anchor="middle" font-size="11" fill="white" font-weight="bold">ELECTRIC VEHICLE</text>
+    <text x="550" y="120" text-anchor="middle" font-size="9" fill="#cce6f5">Retrofitted with Gyro Rotor</text>
+  </g>
+
+  <!-- ============================================ -->
+  <!-- GYRO MAGNET ROTOR (on vehicle underside) -->
+  <!-- ============================================ -->
+  <g>
+    <!-- Mounting bracket -->
+    <rect x="520" y="138" width="60" height="12" rx="2" fill="#888" stroke="#666" stroke-width="1"/>
+    <rect x="535" y="148" width="30" height="10" fill="#666"/>
+
+    <!-- Rotor housing -->
+    <circle cx="550" cy="165" r="20" fill="#2a2a2a" stroke="#FF4444" stroke-width="2.5" filter="url(#glow)"/>
+    <circle cx="550" cy="165" r="14" fill="none" stroke="#444" stroke-width="1"/>
+    <circle cx="550" cy="165" r="4" fill="#FF4444"/>
+
+    <!-- Spin animation lines -->
+    <path d="M535 155 Q550 145 565 155" fill="none" stroke="#FF8888" stroke-width="1" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="0.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M535 175 Q550 185 565 175" fill="none" stroke="#FF8888" stroke-width="1" opacity="0.6">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="0.5s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Pole labels -->
+    <text x="537" y="160" font-size="9" fill="#FF6666" font-weight="bold">N</text>
+    <text x="557" y="177" font-size="9" fill="#66FF66" font-weight="bold">S</text>
+
+    <!-- Label -->
+    <text x="550" y="195" text-anchor="middle" font-size="10" fill="#333" font-weight="bold">GYRO-STABILIZED</text>
+    <text x="550" y="208" text-anchor="middle" font-size="10" fill="#333" font-weight="bold">MAGNET ROTOR</text>
+  </g>
+
+  <!-- ============================================ -->
+  <!-- MAGNETIC FORCE ARROWS (push/pull) -->
+  <!-- ============================================ -->
+  <!-- Attraction force (pulling forward) -->
+  <path d="M580 165 L640 165" stroke="#0066CC" stroke-width="2.5" stroke-dasharray="8,4" marker-end="url(#arrowBlue)"/>
+  <text x="610" y="158" text-anchor="middle" font-size="9" fill="#0066CC" font-weight="bold">ATTRACTION</text>
+  <text x="610" y="148" text-anchor="middle" font-size="8" fill="#0066CC">(Acceleration)</text>
+
+  <!-- Repulsion force (braking) -->
+  <path d="M470 175 L410 175" stroke="#CC0000" stroke-width="2.5" stroke-dasharray="8,4" marker-end="url(#arrowRed)"/>
+  <text x="440" y="168" text-anchor="middle" font-size="9" fill="#CC0000" font-weight="bold">REPULSION</text>
+  <text x="440" y="192" text-anchor="middle" font-size="8" fill="#CC0000">(Braking)</text>
+
+  <!-- ============================================ -->
+  <!-- LAYER 2: ACTIVE ROAD BED -->
+  <!-- ============================================ -->
+
+  <!-- Road surface (transparent resin) -->
+  <rect x="80" y="240" width="1040" height="40" rx="3" fill="url(#roadSurface)" stroke="#444" stroke-width="1.5"/>
+  <text x="600" y="250" text-anchor="middle" font-size="11" fill="#888" font-weight="bold">ROAD SURFACE — TRANSPARENT SOLAR RESIN COMPOSITE</text>
+  <text x="600" y="265" text-anchor="middle" font-size="9" fill="#666">(~60% light transmittance to PV layer below)</text>
+
+  <!-- Texture lines on road -->
+  <line x1="100" y1="275" x2="1100" y2="275" stroke="#555" stroke-width="0.5" opacity="0.5"/>
+  <line x1="100" y1="280" x2="1100" y2="280" stroke="#555" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- ============================================ -->
+  <!-- LAYER 2a: EXISTING MAGLEV CHANNELS -->
+  <!-- ============================================ -->
+  <rect x="80" y="285" width="1040" height="25" fill="url(#maglevGlow)" stroke="#8A2BE2" stroke-width="1" stroke-dasharray="6,3"/>
+  <text x="120" y="301" font-size="10" fill="#8A2BE2" font-weight="bold">EXISTING: MAGLEV RAIL CHANNELS</text>
+  <!-- Maglev rails -->
+  <rect x="250" y="292" width="60" height="6" rx="2" fill="#8A2BE2" opacity="0.7"/>
+  <rect x="890" y="292" width="60" height="6" rx="2" fill="#8A2BE2" opacity="0.7"/>
+  <text x="360" y="301" font-size="9" fill="#8A2BE2">(for high-speed lanes)</text>
+
+  <!-- ============================================ -->
+  <!-- LAYER 2b: EXISTING INDUCTIVE POWER -->
+  <!-- ============================================ -->
+  <rect x="80" y="315" width="1040" height="20" fill="#1a3a2a" stroke="#2d6a4f" stroke-width="1" stroke-dasharray="6,3"/>
+  <text x="120" y="329" font-size="10" fill="#2d6a4f" font-weight="bold">EXISTING: INDUCTIVE POWER COILS</text>
+  <!-- Inductive coils (wave pattern) -->
+  <path d="M200 325 Q210 318 220 325 Q230 332 240 325 Q250 318 260 325" fill="none" stroke="#2d6a4f" stroke-width="1.5" opacity="0.6"/>
+  <path d="M270 325 Q280 318 290 325 Q300 332 310 325 Q320 318 330 325" fill="none" stroke="#2d6a4f" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- ============================================ -->
+  <!-- LAYER 2c: NEW DYNAMIC PROPULSION MATRIX (YOUR ADDITION) -->
+  <!-- ============================================ -->
+  <rect x="80" y="340" width="1040" height="35" rx="4" fill="#1a2a4a" stroke="#FF6600" stroke-width="2.5" stroke-dasharray="10,4"/>
+  <text x="120" y="355" font-size="12" fill="#FFAA66" font-weight="bold">✦ NEW: DYNAMIC PROPULSION MATRIX — PROGRAMMABLE STATOR COILS</text>
+  <text x="120" y="368" font-size="9" fill="#FFAA66" opacity="0.8">Electromagnetic coils switched by AI for push/pull force control</text>
+
+  <!-- Stator coils (array of copper-colored rectangles) -->
+  <g>
+    <!-- Coils along the road -->
+    <rect x="280" y="346" width="22" height="18" rx="2" fill="url(#copper)" stroke="#a0522d" stroke-width="1" opacity="0.9"/>
+    <text x="291" y="358" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold">N</text>
+
+    <rect x="320" y="346" width="22" height="18" rx="2" fill="url(#copper)" stroke="#a0522d" stroke-width="1" opacity="0.9"/>
+    <text x="331" y="358" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold">S</text>
+
+    <rect x="360" y="346" width="22" height="18" rx="2" fill="url(#copper)" stroke="#a0522d" stroke-width="1" opacity="0.9"/>
+    <text x="371" y="358" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold">N</text>
+
+    <rect x="400" y="346" width="22" height="18" rx="2" fill="url(#copper)" stroke="#a0522d" stroke-width="1" opacity="0.9"/>
+    <text x="411" y="358" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold">S</text>
+
+    <!-- Active coils under the vehicle -->
+    <rect x="520" y="346" width="22" height="18" rx="2" fill="#FF6600" stroke="#FF3300" stroke-width="1.5" opacity="1" filter="url(#glow)"/>
+    <text x="531" y="358" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold">N</text>
+
+    <rect x="560" y="346" width="22" height="18" rx="2" fill="#FF6600" stroke="#FF3300" stroke-width="1.5" opacity="1" filter="url(#glow)"/>
+    <text x="571" y="358" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold">S</text>
+
+    <rect x="600" y="346" width="22" height="18" rx="2" fill="#FF6600" stroke="#FF3300" stroke-width="1.5" opacity="1" filter="url(#glow)"/>
+    <text x="611" y="358" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold">N</text>
+
+    <!-- More coils -->
+    <rect x="680" y="346" width="22" height="18" rx="2" fill="url(#copper)" stroke="#a0522d" stroke-width="1" opacity="0.7"/>
+    <rect x="720" y="346" width="22" height="18" rx="2" fill="url(#copper)" stroke="#a0522d" stroke-width="1" opacity="0.7"/>
+    <rect x="760" y="346" width="22" height="18" rx="2" fill="url(#copper)" stroke="#a0522d" stroke-width="1" opacity="0.7"/>
+    <rect x="800" y="346" width="22" height="18" rx="2" fill="url(#copper)" stroke="#a0522d" stroke-width="1" opacity="0.7"/>
+  </g>
+
+  <!-- ============================================ -->
+  <!-- LAYER 3: ROAD GUTTER AND KERB CHANNEL -->
+  <!-- ============================================ -->
+  <rect x="80" y="380" width="1040" height="30" fill="#2a2a2a" stroke="#666" stroke-width="1"/>
+  <text x="120" y="398" font-size="10" fill="#aaa" font-weight="bold">LAYER 3: ROAD GUTTER &amp; KERB CHANNEL</text>
+  <text x="350" y="398" font-size="9" fill="#888">Fibre optic AI network  |  Rainwater harvesting  |  Sensor arrays</text>
+
+  <!-- Icons for gutter elements -->
+  <circle cx="600" cy="393" r="4" fill="#00BFFF" opacity="0.6"/>
+  <circle cx="620" cy="393" r="4" fill="#00BFFF" opacity="0.6"/>
+  <circle cx="640" cy="393" r="4" fill="#00BFFF" opacity="0.6"/>
+
+  <!-- ============================================ -->
+  <!-- LAYER 4: SUPERCONDUCTING UNDERGROUND -->
+  <!-- ============================================ -->
+  <rect x="80" y="415" width="1040" height="40" rx="3" fill="#0a0a2a" stroke="#00BFFF" stroke-width="1.5"/>
+  <text x="120" y="430" font-size="11" fill="#00BFFF" font-weight="bold">LAYER 4: UNDERGROUND SUPERCONDUCTING CABLE LAYER</text>
+  <text x="120" y="445" font-size="9" fill="#00BFFF" opacity="0.7">Zero-loss energy transmission • Vacuum-insulated chambers • ~2-4m below surface</text>
+
+  <!-- Superconducting cables (glowing) -->
+  <line x1="180" y1="435" x2="1020" y2="435" stroke="url(#superconductor)" stroke-width="5" filter="url(#glow)"/>
+
+  <!-- ============================================ -->
+  <!-- LAYER 4b: ENERGY STORAGE NODES -->
+  <!-- ============================================ -->
+  <rect x="80" y="460" width="1040" height="30" fill="#0a1a0a" stroke="#00CC00" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="120" y="478" font-size="10" fill="#00CC00" font-weight="bold">ENERGY STORAGE NODES</text>
+  <text x="300" y="478" font-size="9" fill="#00CC00" opacity="0.7">Solid-state batteries  |  Graphene supercapacitors  |  Vehicle-to-grid</text>
+
+  <!-- Storage node indicators -->
+  <rect x="550" y="468" width="15" height="12" rx="2" fill="#00CC00" opacity="0.6"/>
+  <rect x="580" y="468" width="15" height="12" rx="2" fill="#00CC00" opacity="0.4"/>
+  <rect x="610" y="468" width="15" height="12" rx="2" fill="#00CC00" opacity="0.8"/>
+
+  <!-- ============================================ -->
+  <!-- AI CONTROL INDICATOR (Layer 5 connection) -->
+  <!-- ============================================ -->
+  <g>
+    <rect x="920" y="75" width="220" height="130" rx="8" fill="#1a1a2e" stroke="#AA00FF" stroke-width="2" opacity="0.9"/>
+    <text x="1030" y="95" text-anchor="middle" font-size="12" fill="#AA00FF" font-weight="bold">LAYER 5: AI CONTROL</text>
+    <line x1="940" y1="100" x2="1120" y2="100" stroke="#AA00FF" stroke-width="0.5" opacity="0.5"/>
+
+    <!-- AI brain icon -->
+    <circle cx="970" cy="125" r="12" fill="none" stroke="#AA00FF" stroke-width="1.5"/>
+    <path d="M965 125 L975 125 M970 120 L970 130" stroke="#AA00FF" stroke-width="1"/>
+    <circle cx="970" cy="125" r="3" fill="#AA00FF"/>
+
+    <text x="995" y="122" font-size="10" fill="#AAFFAA">Real-time polarity</text>
+    <text x="995" y="135" font-size="10" fill="#AAFFAA">switching control</text>
+
+    <!-- AI to road connection lines -->
+    <line x1="920" y1="160" x2="800" y2="340" stroke="#AA00FF" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.6"/>
+    <line x1="930" y1="170" x2="850" y2="240" stroke="#AA00FF" stroke-width="1" stroke-dasharray="4,3" opacity="0.4"/>
+
+    <text x="940" y="180" font-size="9" fill="#AA00FF" opacity="0.7">AI manages:</text>
+    <text x="940" y="193" font-size="8" fill="#AA00FF" opacity="0.5">• Platoon spacing</text>
+    <text x="940" y="203" font-size="8" fill="#AA00FF" opacity="0.5">• Emergency corridors</text>
+  </g>
+
+  <!-- ============================================ -->
+  <!-- ENERGY FLOW ARROWS (regenerative braking) -->
+  <!-- ============================================ -->
+  <path d="M600 365 L600 415" stroke="#00FF00" stroke-width="2" marker-end="url(#arrowGreen)" opacity="0.7"/>
+  <text x="615" y="395" font-size="8" fill="#00CC00" font-weight="bold">BRAKING ENERGY</text>
+  <text x="615" y="405" font-size="7" fill="#00CC00">→ Grid recovery</text>
+
+  <!-- ============================================ -->
+  <!-- LEGEND -->
+  <!-- ============================================ -->
+  <rect x="80" y="520" width="1040" height="180" rx="8" fill="#fafafa" stroke="#ddd" stroke-width="1"/>
+  <text x="600" y="545" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">LEGEND — System Layers &amp; Integration</text>
+  <line x1="120" y1="555" x2="1080" y2="555" stroke="#ddd" stroke-width="1"/>
+
+  <!-- Legend items - Row 1 -->
+  <rect x="120" y="570" width="20" height="12" fill="#2a2a2a" stroke="#444" stroke-width="1"/>
+  <text x="150" y="580" font-size="11" fill="#333">Road surface (transparent solar resin)</text>
+
+  <rect x="400" y="570" width="20" height="12" fill="#1a2a4a" stroke="#FF6600" stroke-width="2"/>
+  <text x="430" y="580" font-size="11" fill="#333">Dynamic Propulsion Matrix (NEW)</text>
+
+  <rect x="680" y="570" width="20" height="12" fill="#1a3a2a" stroke="#2d6a4f" stroke-width="1"/>
+  <text x="710" y="580" font-size="11" fill="#333">Inductive power coils (existing)</text>
+
+  <!-- Legend items - Row 2 -->
+  <rect x="120" y="600" width="20" height="12" fill="#8A2BE2" opacity="0.5"/>
+  <text x="150" y="610" font-size="11" fill="#333">Maglev rail channels (existing)</text>
+
+  <rect x="400" y="600" width="20" height="12" fill="#0a0a2a" stroke="#00BFFF" stroke-width="1"/>
+  <text x="430" y="610" font-size="11" fill="#333">Superconducting cable layer</text>
+
+  <rect x="680" y="600" width="20" height="12" fill="#0a1a0a" stroke="#00CC00" stroke-width="1"/>
+  <text x="710" y="610" font-size="11" fill="#333">Energy storage nodes</text>
+
+  <!-- Legend items - Row 3 -->
+  <circle cx="130" cy="628" r="6" fill="#0066CC"/>
+  <text x="150" y="632" font-size="11" fill="#333">Attraction (acceleration)</text>
+
+  <circle cx="400" cy="628" r="6" fill="#CC0000"/>
+  <text x="420" y="632" font-size="11" fill="#333">Repulsion (braking)</text>
+
+  <line x1="680" y1="628" x2="700" y2="628" stroke="#AA00FF" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="710" y="632" font-size="11" fill="#333">AI control &amp; data network</text>
+
+  <!-- Legend items - Row 4 -->
+  <circle cx="130" cy="655" r="4" fill="#00BFFF" opacity="0.6"/>
+  <text x="150" y="659" font-size="11" fill="#333">Sensor array &amp; AI monitoring</text>
+
+  <rect x="400" y="650" width="20" height="10" rx="2" fill="#FF6600" stroke="#FF3300" stroke-width="1"/>
+  <text x="430" y="659" font-size="11" fill="#333">Active coils under vehicle (engaged)</text>
+
+  <path d="M680 653 L690 653 M685 648 L685 658" stroke="#AA00FF" stroke-width="1.5"/>
+  <text x="710" y="659" font-size="11" fill="#333">Gyro-stabilized magnet rotor</text>
+
+  <!-- ============================================ -->
+  <!-- FOOTNOTE -->
+  <!-- ============================================ -->
+  <text x="600" y="730" text-anchor="middle" font-size="10" fill="#888" font-style="italic">The Dynamic Propulsion Matrix adds active push/pull force control to the existing inductive power and maglev layers.</text>
+  <text x="600" y="748" text-anchor="middle" font-size="10" fill="#888" font-style="italic">AI switches coil polarity in real time to accelerate, brake, or hold vehicles with millimetre precision.</text>
+
+  <!-- Decorative road line markings -->
+  <line x1="80" y1="258" x2="1100" y2="258" stroke="#FFCC00" stroke-width="2" stroke-dasharray="30,20" opacity="0.6"/>
+  <line x1="80" y1="262" x2="1100" y2="262" stroke="#FFCC00" stroke-width="2" stroke-dasharray="30,20" opacity="0.6"/>
+
+</svg>
