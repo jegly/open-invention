@@ -101,6 +101,43 @@ Road surfaces absorb enormous solar heat. TEG modules convert the temperature di
 **Road de-icing**
 In cold climates, resistive heating elements in the road surface — powered by stored solar energy — keep the surface above freezing. Roads that de-ice themselves. No salt, no grit, no black ice, no weather-related closures.
 
+
+### 2c — Dynamic Propulsion Matrix
+
+Inductive power transfer gives a vehicle *energy*. Maglev gives it *freedom from friction*. But neither gives the road direct *control over the vehicle's motion*.
+
+**Dynamic Propulsion Matrix** adds a third capability: the road itself becomes a programmable linear motor, capable of pushing or pulling any equipped vehicle without mechanical contact.
+
+#### How It Works
+
+The roadbed contains a continuous array of embedded electromagnetic coils — a programmable stator running the length of every lane. Vehicles carry a **controllable, gyro-stabilised magnet rotor** mounted on the underside.
+
+By switching the polarity of road coils ahead of or behind a vehicle, the AI exerts precise push (acceleration) or pull (braking/repulsion) forces directly on the rotor. The gyro stabilisation ensures the rotor maintains correct orientation regardless of vehicle pitch, roll, or road camber.
+
+| Mode | Polarity sequence | Effect |
+|------|------------------|--------|
+| Acceleration | Coils ahead pull rotor forward | Propels vehicle without using its own motor |
+| Braking | Coils ahead push rotor backward | Decelerates vehicle, recovers energy |
+| Hold/Spacing | Alternating push-pull | Maintains millimetre-accurate following distance |
+| Emergency stop | Full reverse field | Physically halts vehicle faster than friction brakes |
+
+#### Why This Matters
+
+The original blueprint assumes vehicles are responsible for their own motion, with the road only providing energy and guidance. That works — but it leaves a gap. Human reaction time, varying brake performance, and tyre-road friction limits still create risk.
+
+Dynamic Propulsion Matrix closes that gap. The AI doesn't just *suggest* a speed or *route* around congestion. It *enforces* motion directly at the physical layer.
+
+**Key benefits:**
+
+- **Tyre-less acceleration and braking** — vehicle tyres become passive rollers. No skidding, no ABS hunting, no brake pad wear. Stopping distance is limited by human comfort, not friction coefficient.
+- **Regenerative braking at grid scale** — braking energy flows directly back into the superconducting backbone (Layer 4), not into a vehicle battery that may be full. Round-trip efficiency exceeds 90%.
+- **Millimetre-accurate platooning** — AI can space vehicles 0.5 metres apart at highway speeds. No human could react that fast. The road handles it continuously.
+- **Emergency response override** — when an ambulance approaches, the AI can gently push surrounding vehicles apart and hold them in a moving corridor. No horn, no erratic swerving.
+- **Debris rejection** — the gyro rotor is only energised when needed. When idle, it has no net magnetic field, so it doesn't attract ferrous road debris. A brief reverse-polarity pulse can actively eject anything that does stick.
+
+
+
+
 ---
 
 ### 🌊 Layer 3 — Road Gutter and Kerb Channel
